@@ -4,4 +4,5 @@
 
 #### Темы:
 + homework_1 - вводное;
-+ homework_2 - A + B.
++ homework_2 - A + B;
++ homework_3 - теоретическое задание: параллелизуемость/code divergence/memory coalesced access.
