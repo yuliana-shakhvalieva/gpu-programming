@@ -2,13 +2,13 @@
 
 Задание 1. Вводное.
 
-#### Формулировка задания:
+### Формулировка задания:
 + Сделать fork проекта;
 + Прочитать все комментарии подряд и выполнить все **TODO** в файле ``src/main.cpp``.
 
-#### Полученные результаты:
+### Полученные результаты:
 
-<details><summary>Локальный вывод</summary><p>
++ <details><summary>Локальный вывод</summary><p>
 
 <pre>
 $ ./enumDevices
@@ -39,7 +39,7 @@ The command "./enumDevices" exited with 0.
 
 </p></details>
 
-<details><summary>Вывод Github CI</summary><p>
++ <details><summary>Вывод Github CI</summary><p>
 
 <pre>
 Run ./build/enumDevices
