@@ -1,0 +1,255 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "libs",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-libs-Debug-ec580da4e47c3b0e73da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs"
+				},
+				{
+					"build" : "libs/clew",
+					"jsonFile" : "directory-libs.clew-Debug-a36b0178804cba0cca3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "libs/clew",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libs/gpu",
+					"jsonFile" : "directory-libs.gpu-Debug-9a53fde380696e1c2f5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "libs/gpu",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "libs/images",
+					"jsonFile" : "directory-libs.images-Debug-73eb0d93e30789048e89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "libs/images",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "libs/utils",
+					"jsonFile" : "directory-libs.utils-Debug-b2dfd4dfbfe24931c440.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "libs/utils",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "task4",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "libclew",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libgpu",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "libimages",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "libutils",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "hexdumparray::@90375ef4966b2202aea0",
+					"jsonFile" : "target-hexdumparray-Debug-9bebb4347ca3165091e4.json",
+					"name" : "hexdumparray",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libclew::@9cb7e33744a6ab8991c7",
+					"jsonFile" : "target-libclew-Debug-06281d7847a0a46f35fd.json",
+					"name" : "libclew",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libgpu::@90375ef4966b2202aea0",
+					"jsonFile" : "target-libgpu-Debug-6d836a3805aacf54f802.json",
+					"name" : "libgpu",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libimages::@c1ddea42c537df556aff",
+					"jsonFile" : "target-libimages-Debug-21aeb05992fe78a5d155.json",
+					"name" : "libimages",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libutils::@e42e11acb977bccfc0e7",
+					"jsonFile" : "target-libutils-Debug-c7623cda83b43374f70d.json",
+					"name" : "libutils",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_multiplication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_multiplication-Debug-e438fb44a0d60deb4acf.json",
+					"name" : "matrix_multiplication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_transpose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_transpose-Debug-0aa024e9fcf907881751.json",
+					"name" : "matrix_transpose",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuliana/Desktop/studies/repos/GPGPUTasks2023/cmake-build-debug",
+		"source" : "/home/yuliana/Desktop/studies/repos/GPGPUTasks2023"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
