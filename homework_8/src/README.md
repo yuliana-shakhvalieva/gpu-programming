@@ -4,7 +4,7 @@
 
 ### Формулировка задания:
 
-![Lilmonster](/.figures/capture.gif?raw=true)
+![demo](https://github.com/yuliana-shakhvalieva/gpu-programming/blob/main/homework_8/.figures/capture.gif)
 
 Откройте страницу [Shadertoy](https://www.shadertoy.com/new).
 
@@ -18,4 +18,5 @@
 
 ### Полученные результаты:
 
-![Lilmonster](/.figures/result.gif?raw=true)
+![result](https://github.com/yuliana-shakhvalieva/gpu-programming/blob/main/homework_8/.figures/result.gif)
+
